@@ -1,0 +1,42 @@
+@media (max-width: 580px) {
+
+    .result .score-area {
+        width: 80%;
+        padding-top: 40%;
+        padding-bottom: 40%;
+    }
+
+    .result .stats {
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 430px) {
+
+    body {
+        margin: 0;
+    }
+
+    .card {
+        flex-direction: column;
+    }
+
+    .card .result {
+        width: 100%;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    .result .score-area {
+        width: 150px;
+        height: 150px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .summary {
+        width: 90%;
+        margin: 20px 5%;
+        padding: 0;
+    }
+}
